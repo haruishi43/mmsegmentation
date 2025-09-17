@@ -61,7 +61,11 @@ class MMSegInferencer(BaseInferencer):
     forward_kwargs: set = {'mode', 'out_dir'}
     visualize_kwargs: set = {
         'show', 'wait_time', 'img_out_dir', 'opacity', 'return_vis',
+<<<<<<< HEAD
         'withLabels'
+=======
+        'with_labels'
+>>>>>>> 6a709be23151912de4b67aa4e38b8b1d9ba9a8ef
     }
     postprocess_kwargs: set = {'pred_out_dir', 'return_datasample'}
 
@@ -203,7 +207,11 @@ class MMSegInferencer(BaseInferencer):
                   wait_time: int = 0,
                   img_out_dir: str = '',
                   opacity: float = 0.8,
+<<<<<<< HEAD
                   withLabels: Optional[bool] = True) -> List[np.ndarray]:
+=======
+                  with_labels: Optional[bool] = True) -> List[np.ndarray]:
+>>>>>>> 6a709be23151912de4b67aa4e38b8b1d9ba9a8ef
         """Visualize predictions.
 
         Args:
@@ -257,7 +265,11 @@ class MMSegInferencer(BaseInferencer):
                 draw_gt=False,
                 draw_pred=True,
                 out_file=out_file,
+<<<<<<< HEAD
                 withLabels=withLabels)
+=======
+                with_labels=with_labels)
+>>>>>>> 6a709be23151912de4b67aa4e38b8b1d9ba9a8ef
             if return_vis:
                 results.append(self.visualizer.get_image())
             self.num_visualized_imgs += 1

@@ -1,0 +1,7 @@
+{
+   "venv" : "semisup",
+   "venvPath" : "/home/ubuntu/.pyenv/versions",
+   "reportOptionalSubscript": false,
+   "reportOptionalMemberAccess": false,
+   "reportGeneralTypeIssues": false,
+}
