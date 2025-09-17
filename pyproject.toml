@@ -1,5 +1,5 @@
 [project]
-name = "mmseg"
+name = "mmsegmentation"
 version = "1.2.0"
 description = "OpenMMLab Semantic Segmentation Toolbox and Benchmark"
 readme = "README.md"
