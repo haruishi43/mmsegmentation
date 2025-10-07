@@ -16,7 +16,7 @@ authors = [
 ]
 requires-python = ">=3.10,<3.12"
 dependencies = [
-  "albumentations==1.4.4",
+  "albumentations>=1.4.4",
   "einops",
   "elasticdeform",
   "ftfy",
