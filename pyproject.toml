@@ -131,7 +131,7 @@ explicit = true
 [tool.setuptools.packages.find]        # custom discovery
 include = ["mmseg*"]                # pick the library
 exclude = [
-  "data*", "configs*", "projects*", "notebooks*", "work_dirs*", "pretrained*", "third_party*",
+  "data*", "projects*", "notebooks*", "work_dirs*", "pretrained*", "third_party*",
 ]
 
 [build-system]
