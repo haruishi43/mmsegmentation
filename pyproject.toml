@@ -28,7 +28,7 @@ dependencies = [
   "timm",
   "mmengine>=0.10.6",
   "numpy<2",
-  "matplotlib>=3.10.1",
+  "matplotlib>=3.9.1",
   "seaborn>=0.13.2",
   "torchmetrics",
   "ninja>=1.11.1.4",
